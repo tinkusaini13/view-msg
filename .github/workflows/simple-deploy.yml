@@ -1,0 +1,27 @@
+- name:simple-deploy
+  # You may pin to the exact commit or the version.
+  # uses: llxlr/fuck-deploy@a6708aa047ad8342a90629d0e6e8a0b328db500a
+  uses: llxlr/fuck-deploy@v0.0.1
+  with:
+    # 
+    type: 
+    # Server username
+    username: 
+    # IP
+    host: 
+    # 
+    port: # optional, default is 22
+    # password
+    password: # optional
+    # Private Key
+    private_key: # optional
+    # 
+    remote_path: 
+    # 
+    local_path: # optional, default is ./
+    # 
+    include: # optional
+    # 
+    exclude: # optional
+    # rsync args
+    args: # optional
